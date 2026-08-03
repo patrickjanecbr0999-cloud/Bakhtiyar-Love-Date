@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Для тебя ❤️</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<div class="container">
+
+<!-- =================== Страница 1 =================== -->
+
+<section class="page active" id="welcome">
+
+<h1>❤️ Для самой прекрасной девушки ❤️</h1>
+
+<p class="subtitle">
+У меня есть маленький сюрприз...
+<br><br>
+Надеюсь в этот раз ты уделишь мне пару минут 💕
+</p>
+
+<button id="startBtn">
+Начать ✨
+</button>
+
+</section>
+
+<!-- =================== Страница 2 =================== -->
+
+<section class="page" id="login">
+
+<h2>🔐 Маленькая проверка</h2>
+
+<p class="subtitle">
+Только ты знаешь ответы ❤️
+</p>
+
+<input
+type="text"
+id="name"
+placeholder="Имя">
+
+<input
+type="text"
+id="surname"
+placeholder="Фамилия">
+
+<input
+type="text"
+id="father"
+placeholder="Отчество">
+
+<button id="loginBtn">
+Продолжить ❤️
+</button>
+
+</section>
+
+<!-- =================== Страница 3 =================== -->
+
+<section class="page" id="question">
+
+<h2>
+💕 Мы давно не виделись...
+</h2>
+
+<p class="subtitle">
+Ты согласна пойти со мной на свидание?
+</p>
+
+<div class="buttons">
+
+<button id="yesBtn">
+Да ❤️
+</button>
+
+<button id="noBtn">
+Нет 🙈
+</button>
+
+</div>
+
+</section>
+
+<!-- =================== Страница 4 =================== -->
+
+<section class="page" id="places">
+
+<h2>
+🌸 Куда бы ты хотела сходить?
+</h2>
+
+<p class="subtitle">
+Выбери несколько мест ❤️
+</p>
+
+<div class="cards">
+
+<div class="card">🌳 Парк</div>
+
+<div class="card">☕ Кафе</div>
+
+<div class="card">🎬 Кино</div>
+
+<div class="card">🍕 Ресторан</div>
+
+<div class="card">🛍️ Шопинг</div>
+
+<div class="card">🎡 Аттракционы</div>
+
+<div class="card">🌃 Вечерняя прогулка</div>
+
+<div class="card">🍦 Просто гулять</div>
+
+</div>
+
+<button id="placeNext">
+Продолжить →
+</button>
+
+</section>
+
+<!-- =================== Страница 5 =================== -->
+
+<section class="page" id="datePage">
+
+<h2>📅 Когда тебе удобно?</h2>
+
+<p class="subtitle">
+Выбери дату нашего свидания ❤️
+</p>
+
+<input type="date" id="date">
+
+<button id="dateNext">
+Продолжить →
+</button>
+
+</section>
+
+<!-- =================== Страница 6 =================== -->
+
+<section class="page" id="timePage">
+
+<h2>🕒 Во сколько?</h2>
+
+<p class="subtitle">
+Выбери удобное время 💕
+</p>
+
+<input type="time" id="time">
+
+<button id="timeNext">
+Продолжить →
+</button>
+
+</section>
+
+<!-- =================== Страница 7 =================== -->
+
+<section class="page" id="giftPage">
+
+<h2>🎁 Маленький секрет</h2>
+
+<p class="subtitle">
+Есть ли что-то, что ты давно хотела, но стеснялась попросить?<br><br>
+Напиши здесь ❤️
+</p>
+
+<textarea
+id="wish"
+placeholder="Напиши всё, что захочешь..."
+rows="6"></textarea>
+
+<button id="wishNext">
+Продолжить →
+</button>
+
+</section>
+
+<!-- =================== Страница 8 =================== -->
+
+<section class="page" id="finishPage">
+
+<h1>❤️ Спасибо ❤️</h1>
+
+<p class="subtitle">
+Спасибо, что прошла этот маленький сюрприз.
+
+<br><br>
+
+Совсем скоро мы увидимся...
+
+<br><br>
+
+Я уже очень жду нашего свидания. 💕
+
+</p>
+
+<button id="sendBtn">
+Отправить ❤️
+</button>
+
+</section>
+
+</div>
+
+<script src="hearts.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
